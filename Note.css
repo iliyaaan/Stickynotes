@@ -1,0 +1,21 @@
+.note{
+    padding: 20px;
+    height: 150px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    /* background-color: aquamarine; */
+    box-shadow: 1px 5px  rgba(0, 0, 0, 0.316);
+}
+.note :hover{
+    cursor:grab;
+}
+.note_text{
+    flex: 1;
+    resize: none;
+    background-color: transparent;
+    font-size: 1rem;
+    line-height: 1.875rem;
+    outline: none;
+    border: none;
+}
